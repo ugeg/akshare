@@ -27,7 +27,7 @@ def js_news(timestamp: str = "2022-11-13 14:50:18") -> pd.DataFrame:
     }
     headers = {
         "accept": "application/json, text/plain, */*",
-        "accept-encoding": "gzip, deflate, br",
+        "accept-encoding": "gzip, deflate",
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
         "cache-control": "no-cache",
         "origin": "https://www.jin10.com",
